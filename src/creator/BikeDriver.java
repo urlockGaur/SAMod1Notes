@@ -6,5 +6,8 @@ public class BikeDriver {
         /**
          * Create a Bike object.
          */
+
+        
+        Bike bike2 = new Bike(25, 30);
     }
 }

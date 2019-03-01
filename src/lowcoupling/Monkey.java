@@ -1,14 +1,10 @@
 package lowcoupling;
 
-public class Monkey {
-
-    private String name;
+public class Monkey extends Animal {
 
     public Monkey(String name) {
-        this.name = name;
+        super(name);
     }
 
-    public String toString() {
-        return "A monkey named " + name;
-    }
+
 }
