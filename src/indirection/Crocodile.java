@@ -1,5 +1,9 @@
 package indirection;
 
+/**
+ * For whatever reason, we can't modify the Crocodile class directly.
+ * We can't make it extend Animal, but we still want to add it to a Zoo.
+ */
 public final class Crocodile {
 
     private String name;

@@ -1,10 +1,15 @@
 package lowcoupling;
 
-public class Lion extends Animal {
+public class Lion {
+
+    private String name;
 
     public Lion(String name) {
-        super(name);
+        this.name = name;
     }
 
-
+    @Override
+    public String toString() {
+        return name;
+    }
 }

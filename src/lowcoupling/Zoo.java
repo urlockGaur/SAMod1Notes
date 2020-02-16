@@ -5,24 +5,15 @@ import java.util.List;
 
 public class Zoo {
     /*
-    Finish the Zoo class. You should be able to create a Zoo
-    object that contains a Lion and a Monkey.
+    Modify the Zoo class. A Zoo should be able to
+    contain a Lion and a Monkey in a single list.
      */
-    
-    private List<Animal> animals = new ArrayList();
-    
 
-    
-    public Zoo() {
+    private List<Lion> lions = new ArrayList<>();
 
+
+    public void addLion(Lion lion) {
+        lions.add(lion);
     }
-    
-    public void addLion(String name) {
-        Lion lion = new Lion(name);
-        animals.add(lion);
-    }
-    
-    public void addAnimal(Animal animal) {
-        animals.add(animal);
-    }
+
 }
