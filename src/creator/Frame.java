@@ -7,4 +7,8 @@ public class Frame {
     public Frame(float length) {
         this.length = length;
     }
+
+    public String toString() {
+        return "Frame: " + length + " inches";
+    }
 }
