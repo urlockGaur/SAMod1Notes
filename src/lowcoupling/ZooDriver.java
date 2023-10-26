@@ -10,6 +10,10 @@ public class ZooDriver {
         Zoo zoo = new Zoo();
 
         Lion lion = new Lion("Bob");
-        zoo.addLion(lion);
+        zoo.addAnimal(lion);
+        zoo.addAnimal(new Monkey("Bill"));
+        zoo.listAnimals();
+
+
     }
 }

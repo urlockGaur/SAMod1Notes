@@ -9,11 +9,19 @@ public class Zoo {
     contain a Lion and a Monkey in a single list.
      */
 
-    private List<Lion> lions = new ArrayList<>();
+
+    private List<Animal> animals = new ArrayList<>();
 
 
-    public void addLion(Lion lion) {
-        lions.add(lion);
+    public void addAnimal(Animal animal) {
+        animals.add(animal);
     }
 
+    public void listAnimals() {
+        for (Animal animal : animals) {
+            System.out.println(animal);
+        }
+
+
+    }
 }

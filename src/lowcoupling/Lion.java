@@ -1,6 +1,6 @@
 package lowcoupling;
 
-public class Lion {
+public class Lion extends Animal{
 
     private String name;
 
